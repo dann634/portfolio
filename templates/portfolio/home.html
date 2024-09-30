@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dan Jackson</title>
+    {% load static %}
+    <link rel="stylesheet" href={% static '/css/home.css' %}>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<div class="container">
+    <img id="headshot" src="{% static 'images/headshot.jpg' %}" alt="Headshot Picture">
+    <h1 id="name">Dan Jackson</h1>
+    <div class="hbox">
+        <a href="https://www.instagram.com/dan.jackso_n/" class="fa fa-instagram fa-3x"></a>
+        <a href="https://github.com/dann634" class="fa fa-github fa-3x"></a>
+        <a href="https://www.linkedin.com/in/dan-jackson-65b76027a/" class="fa fa-linkedin fa-3x"></a>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item" id="aboutmeBox">
+            <p class="projectTitle">About Me</p>
+            <p style="font-size: 20px;padding: 0 20px 0 20px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at culpa in itaque labore nulla possimus quaerat ut? Beatae explicabo laboriosam nesciunt obcaecati officiis vitae voluptates voluptatum! Commodi, quia reiciendis!</p>
+        </div>
+        <div class="grid-item" id="educationBox">
+            <img id="exeterLogo" src="{% static 'images/exeter_uni.png' %}" alt="Exeter Uni Logo">
+            <p id="courseName" class="educationText">Computer Science Bsc</p>
+            <p id="uniName" class="educationText">Exeter University</p>
+            <p id="courseDate" class="educationText" style="font-style: italic">2024-2027</p>
+        </div>
+        <div class="grid-item projectBox" style="grid-row-start: 2">
+            <div style="display: flex">
+                <div class="projectDescBox">
+                    <p class="projectTitle">Terrafy</p>
+                    <p style="font-size: 18px">This is the survival sandbox game I made for my A-Level coursework. Some
+                        notable features include,
+                        procedural generation, multithreading and multiplayer support.
+                        The player must gather resources, fight randomly spawning enemies and defeat the boss at the
+                        end. This game uses the JavaFX library.</p>
+                    <div class="projectButtons">
+                        <a href="http://github.com/dann634/nea" class="fa fa-github fa-2x"></a>
+                        <a href="http://github.com/dann634/neaServer" class="fa fa-github fa-2x"></a>
+                        <a href="https://www.dropbox.com/scl/fi/4vxju4i0uwtc2xfbbdean/NEA.docx?rlkey=zfnk2qum9zj63d13vtzzse66k&st=3gdw3xrm&dl=0" class="fa fa-dropbox fa-2x"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid-item projectBox" style="grid-row-start: 3">
+            <div style="display: flex">
+                <div class="projectDescBox">
+                    <p class="projectTitle">Chess</p>
+                    <p style="font-size: 18px">This game allows two players to play each other locally in a game of chess.
+                    Pieces can be moved by dragging and dropping or by clicking. The board rotates after each player's turn.</p>
+                    <div class="projectButtons">
+                        <a href="http://github.com/dann634/chess" class="fa fa-github fa-2x"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid-item projectBox" style="grid-row-start: 4">
+            <div style="display: flex">
+                <div class="projectDescBox">
+                    <p class="projectTitle">OCR Tunes</p>
+                    <p style="font-size: 18px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad ex explicabo, itaque labore, nemo odio quae quam, quasi quibusdam quis veritatis. Ad consectetur, consequuntur cum dolores molestias quasi vitae.</p>
+                    <div class="projectButtons">
+                        <a href="http://github.com/dann634/ocrtunes" class="fa fa-github fa-2x"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

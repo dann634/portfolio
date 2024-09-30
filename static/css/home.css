@@ -1,0 +1,146 @@
+body {
+    background-color: #1E201E;
+}
+
+p {
+    color: #ECDFCC;
+    text-align: center;
+
+}
+
+.container {
+    display: grid;
+    place-content: center;
+    padding: 30px;
+}
+
+
+#name {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #ECDFCC;
+}
+
+#headshot {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.fa {
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+.fa-instagram {
+    background-color: #ba0d72;
+    color: white;
+}
+
+.fa-linkedin {
+    background-color: #0077B5;
+    color: white;
+}
+
+.fa-github {
+    background-color: #121212;
+    color: white;
+}
+
+.fa-dropbox {
+    background-color: #106cc2;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.8;
+}
+
+.hbox {
+    display: flex;
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    padding: 10px;
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: #3C3D37;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: black;
+    display: grid;
+    place-content: flex-start;
+}
+
+.projectTitle {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.projectDescBox {
+    display:grid;
+    width: 350px;
+    padding: 10px 10px 10px 30px;
+}
+
+.projectButtons {
+    display: flex;
+    margin: auto;
+}
+
+#educationBox {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 400px;
+    height: 300px;
+    place-content: center;
+}
+
+#exeterLogo {
+    height: auto;
+    width: auto;
+    max-width: 150px;
+    margin: auto;
+}
+
+#courseName {
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.educationText {
+    margin: 5px;
+}
+
+#aboutmeBox {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 600px;
+    height: 300px;
+}
+
+.projectBox {
+    height: 400px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+
+
+
+
+
+
