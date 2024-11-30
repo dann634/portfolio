@@ -137,6 +137,28 @@ p {
     grid-column-end: 3;
 }
 
+.project-img {
+    display: block;
+}
+
+#terrafy-img {
+    width: 500px; /* Ensures the image doesn't overflow the container */
+    height: auto;    /* Maintains the aspect ratio */
+    /*padding-top: 20px;*/
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 5%;
+}
+
+#chess-img {
+    width: 350px; /* Ensures the image doesn't overflow the container */
+    height: auto;    /* Maintains the aspect ratio */
+    /*padding-top: 20px;*/
+    margin-top: 20px;
+    margin-left: 120px;
+    border-radius: 5%;
+}
+
 
 
 
