@@ -76,7 +76,7 @@ p {
 
 .grid-item {
     background-color: #3C3D37;
-    border-radius: 10%;
+    border-radius: 25px;
     border-style: solid;
     border-color: black;
     display: grid;
@@ -142,12 +142,12 @@ p {
 }
 
 #terrafy-img {
-    width: 500px; /* Ensures the image doesn't overflow the container */
-    height: auto;    /* Maintains the aspect ratio */
-    /*padding-top: 20px;*/
-    margin-top: 20px;
-    margin-left: 40px;
+    height: 80%;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 50px;
     border-radius: 5%;
+    max-width: 500px;
 }
 
 #chess-img {
