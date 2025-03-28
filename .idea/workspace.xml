@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3187c95-1d90-433f-8204-586813d44012" name="Changes" comment="added chess img1">
+    <list default="true" id="b3187c95-1d90-433f-8204-586813d44012" name="Changes" comment="updated image aspect ratio">
+      <change afterPath="$PROJECT_DIR$/app-release.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pubapp1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pubapp2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pubapp3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,37 +49,43 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2mnrC5ASFsD9DiXDcxESqRp7dpQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Django Server.portfolio.executor&quot;: &quot;Run&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-Database detector&quot;: &quot;Database detector&quot;,
-    &quot;Notification.DoNotAsk-Database detector&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
-    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/danie/PycharmProjects/portfolio/static/images&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Django/Jinja2 Template&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.portfolio.executor": "Run",
+    "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
+    "Notification.DoNotAsk-Database detector": "true",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/danie/PycharmProjects/portfolio",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Django/Jinja2 Template",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\danie\PycharmProjects\portfolio" />
+      <recent name="C:\Users\danie\PycharmProjects\portfolio\images" />
       <recent name="C:\Users\danie\PycharmProjects\portfolio\static\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danie\PycharmProjects\portfolio\images" />
       <recent name="C:\Users\danie\PycharmProjects\portfolio" />
       <recent name="C:\Users\danie\PycharmProjects\portfolio\static\images" />
       <recent name="C:\Users\danie\PycharmProjects\portfolio\static\css" />
@@ -106,6 +118,10 @@
       <workItem from="1733008155801" duration="3663000" />
       <workItem from="1733014896964" duration="26000" />
       <workItem from="1733143301886" duration="604000" />
+      <workItem from="1733226876305" duration="1893000" />
+      <workItem from="1733231356060" duration="113000" />
+      <workItem from="1733231566804" duration="17000" />
+      <workItem from="1743192895764" duration="2239000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -195,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733010828759</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="updated image aspect ratio">
+      <option name="closed" value="true" />
+      <created>1733228178722</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733228178722</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +245,7 @@
     <MESSAGE value="adding in images" />
     <MESSAGE value="added chess img" />
     <MESSAGE value="added chess img1" />
-    <option name="LAST_COMMIT_MESSAGE" value="added chess img1" />
+    <MESSAGE value="updated image aspect ratio" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated image aspect ratio" />
   </component>
 </project>
