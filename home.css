@@ -146,7 +146,7 @@ p {
     width: 80%;
     margin-top: 50px;
     margin-left: 50px;
-    border-radius: 5%;
+    border-radius: 15px;
     max-width: 500px;
 }
 
@@ -159,6 +159,34 @@ p {
     border-radius: 5%;
 }
 
+#pubapp-img {
+    height: 350px; /* Ensures the image doesn't overflow the container */
+    width: auto;
+    /*padding-top: 20px;*/
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.row-container {
+  display: flex;          /* Enables flexbox */
+}
+
+.fa-download:hover {
+    cursor: pointer;
+}
+
+.fa-download {
+    align-content: center;
+    color: white;
+    background-color: #1E201E;
+    height: 35px;
+
+    padding: 5px;
+    width: 50px;
+    border-radius: 10%;
+    margin: 10px;
+}
 
 
 
