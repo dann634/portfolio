@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dan Jackson</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<header class="header row">
+  <a href="index.html">
+    <div class="row header-row">
+      <img src="img/headshot.jpg" alt="" class="header-img">
+      <p class="header-name">Dan Jackson</p>
+    </div>
+  </a>
+
+  <div>
+    <ul class="row header-nav">
+      <li><a class="nav-item" href="index.html#home">Home</a></li>
+      <li><a class="nav-item" href="index.html#about">About</a></li>
+      <li><a class="nav-item" href="index.html#projects">Projects</a></li>
+      <li><a class="nav-item" href="index.html#contact">Contact</a></li>
+
+    </ul>
+  </div>
+
+</header>
+
+
+<section class="project-title-container">
+  <div class="about-box">
+    <h1 class="about-hello">Alcohol Tracking App</h1>
+    <p class="about-desc">An app that allows you to track your consumption of alcohol across a night or a longer time period and compares it to your friends. Github repository and download link below. (NOTE: Download only works for Android devices).</p>
+
+    <div class="row project-socials">
+      <a href="https://github.com/dann634/pubapp" target="_blank">
+        <img src="img/github.png" alt="">
+      </a>
+      <a href="app-release.apk" download class="download-button">
+        <span class="icon-wrapper">
+          <i class="fa fa-download" aria-hidden="true"></i>
+        </span>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<section>
+
+  <div class="row centered project-gallery">
+    <img class="project-page-mobile-img" src="img/pubapp1.jpg" alt="Project Image">
+    <img class="project-page-mobile-img" src="img/pubapp2.jpg" alt="Project Image">
+    <img class="project-page-mobile-img" src="img/pubapp3.jpg" alt="Project Image">
+  </div>
+
+</section>
+
+<section>
+
+  <div class="project-overview">
+    <h2>Project Overview</h2>
+    <p>
+      This app was made, so users could track how much they were drinking on nights out and compare, using a graph or measurements over longer time periods.
+      The user can add drinks from a built-in list, and it'll be added to their profile. The app also has fully functioning friend mechanics so users can send/accept friend requests.
+      <br><br>
+      This project was a collaboration between
+      <a class="jed-link" href="https://www.linkedin.com/in/jed-leas-716215238/" target="_blank">Jed Leas</a>
+      and myself. I primarily focused on creating and implementing the backend system, having to communicate about endpoints that were available for the front end.
+      The front-end was built by both of us, with the Event page being his creation.
+      <br><br>
+      The Back-end system is a RESTful API being hosted on an AWS EC2 instance. I used Flask to create the endpoints and to implement security through authentication.
+      To store data I used a MySQL database hosted on an Amazon RDS instance. The database schema was designed to optimize querying and reduce overall data stored.
+      <br><br>
+      Feel free to check out the app or code through the links at the top of the page.
+
+    </p>
+  </div>
+
+  <div class="project-overview">
+    <h2>Skills Used</h2>
+    <div class="skills">
+      <div class="skill-box">Python</div>
+      <div class="skill-box">Flask</div>
+      <div class="skill-box">Dart</div>
+      <div class="skill-box">Flutter</div>
+      <div class="skill-box">MySQL</div>
+      <div class="skill-box">AWS</div>
+      <div class="skill-box">Git</div>
+      <div class="skill-box">Github</div>
+      <div class="skill-box">Token Auth</div>
+      <div class="skill-box">Caching</div>
+    </div>
+  </div>
+  <br><br>
+
+</section>
+
+
+
+<footer class="main-footer">
+  <div class="main-container">
+    <div class="main-footer__upper">
+
+      <div class="main-footer__row main-footer__row-2">
+        <h2 class="heading heading-sm text-lt">Dan Jackson</h2>
+        <p class="main-footer__short-desc">
+          A Results-Driven Backend Developer focused on building and optimizing scalable systems, APIs, and databases that drive the performance and success of modern web applications.
+        </p>
+      </div>
+
+      <div class="main-footer__row main-footer__row-1">
+        <h2 class="heading heading-sm main-footer__heading-sm">
+          <span>Social</span>
+        </h2>
+        <div class="main-footer__social-cont">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/dan-jackson-65b76027a/"
+          >
+            <img
+              class="main-footer__icon"
+              src="img/linkedin.png"
+              alt="Linkedin Profile"
+            />
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/dann634"
+          >
+            <img
+              class="main-footer__icon"
+              src="img/github.png"
+              alt="Github Profile"
+            />
+          </a>
+
+
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.facebook.com/profile.php?id=100028204065389"
+          >
+            <img
+              class="main-footer__icon"
+              src="img/facebook.png"
+              alt="Facebook Profile"
+            />
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.instagram.com/dan.jackso_n/"
+          >
+            <img
+              class="main-footer__icon main-footer__icon--mr-none"
+              src="img/instagram.png"
+              alt="Instagram Profile"
+            />
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="main-footer__lower">
+      &copy; Copyright
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+      . Made by Daniel Jackson
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
