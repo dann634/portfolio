@@ -817,3 +817,10 @@ button {
   justify-content: center;
   min-height: 100vh;
 }
+
+.grid-item {
+  max-width: 100%;      /* don’t overflow the grid column */
+  height: auto;         /* keep aspect ratio */
+  border-radius: 8px;   /* optional: rounded corners */
+  object-fit: contain;  /* keep whole image visible */
+}

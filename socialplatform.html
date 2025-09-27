@@ -31,24 +31,23 @@
 
 <section class="project-title-container">
   <div class="about-box">
-    <h1 class="about-hello">Chess</h1>
+    <h1 class="about-hello">Social Platform</h1>
     <p class="about-desc">
-      A game that allows two users to play chess locally. Has working checkmate, castling and en passant.
+      An online platform that allows users to create profiles, post updates, and interact with each other in a social media environment.
     </p>
-
-    <div class="row project-socials">
-      <a href="https://github.com/dann634/chess" target="_blank">
-        <img src="img/github.png" alt="">
-      </a>
-    </div>
 
   </div>
 </section>
 
 <section>
 
-  <div class="row centered project-gallery">
-    <img  src="img/chess.png" alt="Project Image">
+  <div class="wrapper">
+    <div class="gallery-grid social-platform">
+      <img class="grid-item" src="img/social_platform_home.PNG" alt="Project Image">
+      <img class="grid-item" src="img/social_platform_profile.PNG" alt="Project Image">
+      <img class="grid-item" src="img/social_platform_comments.PNG" alt="Project Image">
+      <img class="grid-item" src="img/social_platform_login.PNG" alt="Project Image">
+    </div>
   </div>
 
 </section>
@@ -58,13 +57,12 @@
   <div class="project-overview">
     <h2>Project Overview</h2>
     <p>
-      This was a game I made in my spare time to improve my programming skills. It allows 2 people to play chess against each other until someone checkmates a King.
-      I focused on improving my understanding of Object-Oriented Programming techniques, which this project was perfect for, as the roles are very defined.
+      This is a project I undertook to better understand the mentality of creating a large scale social platform. Making sure the back end was secure, reliable and scalable were my biggest challenges, so I used a
+      microservices architecture with an API gateway to direct traffic. The platform also uses token authentication with JWT tokens issued by a specialised service.
       <br><br>
-      I used Java to make this game, with JavaFX as the GUI library.
-      This project made me understand the importance of reaching out to more experienced developers, as had a recursive issue when putting the King into check that I couldn't solve after many attempts.
+      I used the Spring Boot framework for this project, in conjunction with Spring Security for auth and Spring JPA for data storage. For the front end I used JavaScript and HTML, which I
+      hadn't used before, but after this project I am very comfortable using. I also use a PostgreSQL database to store user data securely and a Redis cache to increase the performance of user queries.
       <br><br>
-      Feel free to check out the code through the links at the top of the page.
 
     </p>
   </div>
@@ -73,7 +71,14 @@
     <h2>Skills Used</h2>
     <div class="skills">
       <div class="skill-box">Java</div>
-      <div class="skill-box">JavaFX</div>
+      <div class="skill-box">Spring Boot</div>
+      <div class="skill-box">Spring Security</div>
+      <div class="skill-box">Spring JPA</div>
+      <div class="skill-box">JavaScript</div>
+      <div class="skill-box">HTML</div>
+      <div class="skill-box">CSS</div>
+      <div class="skill-box">PostgreSQL</div>
+      <div class="skill-box">Redis</div>
       <div class="skill-box">Git</div>
       <div class="skill-box">Github</div>
     </div>
